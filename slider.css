@@ -1,0 +1,32 @@
+.mySlides {
+    display: none;
+    margin-right: 10px;
+}
+
+.slider-img {
+    vertical-align: middle;
+    min-height: 80vh;
+    min-width: 100%;
+}
+
+.slideshow-container {
+    width: 100%;
+    position: relative;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 3s;
+    animation-name: fade;
+    animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .2;}
+    to {opacity: 1;}
+}
+
+@keyframes fade {
+    from {opacity: .2;}
+    to {opacity: 1;}
+}

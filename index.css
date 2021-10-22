@@ -376,6 +376,9 @@ footer p{
 		width: 80%;
 	}
 
+	.img-div2 img:nth-child(1){
+		margin-left: 15%;
+	}
 
 }
 /* @media only screen and (max-width: 500px) {

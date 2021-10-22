@@ -379,6 +379,9 @@ footer p{
 	.img-div2 img:nth-child(1){
 		margin-left: 15%;
 	}
+	.title-ec{
+		margin-left: 0;
+	}
 
 }
 /* @media only screen and (max-width: 500px) {

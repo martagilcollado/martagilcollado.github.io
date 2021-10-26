@@ -190,7 +190,7 @@ footer p{
 	}
 
 	.img-div2 img {
-		width: 50%;
+		width: 45%;
 		object-fit: cover;
 		padding-left: 2%;
 	}
@@ -289,10 +289,10 @@ footer p{
 	}
 
 
-/* } */
+
 
 /* RESPONSIVEEEEEEEEEEEEEEE */
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1024px) {
 	figure {
 		height: 100vh;
 	}
@@ -313,19 +313,20 @@ footer p{
 	}
 
 	.img-div img {
-		width: 70%;
+		width: 75%;
+		margin-top: 10%;
 	}
 
 	.img-div .img-alone{
 		margin-left: 0;
-		margin-top: 5%;
-		width: 70%;
+		margin-top: 10%;
+		width: 80%;
 	}
 
 	.img-div2 img{
-		width: 60%;
+		width: 85%;
 		margin-left: 12%;
-		margin-top: 10%;
+		margin-top: 20%;
 	}
 
 	.img-div2 img:nth-child(1){
@@ -333,18 +334,18 @@ footer p{
 	}
 
 	.img-div2 img:nth-child(2){
-		width: 55%;
+		width: 70%;
 	}
 
 	.img-div .img-mxw {
 		width: 90%;
-		margin-top: 5%;
+		margin-top: 10%;
 		margin-left: 0;
 	}
 
 	.img-div3 img {
-		margin-top: 10%;
-		width: 75%;
+		margin-top: 20%;
+		width: 85%;
 		margin-left: 5%;
 	}
 
@@ -361,7 +362,7 @@ footer p{
 	}
 
 	.ecomm {
-		margin-top: 10%;
+		margin-top: 20%;
 	}
 
 	.ecomm img{
@@ -402,7 +403,8 @@ footer p{
 	}
 
 	.img-div img {
-		width: 57%;
+		width: 60%;
+		margin-top: 2%;
 	}
 
 	.img-div .img-mxw {
@@ -414,135 +416,37 @@ footer p{
 		margin-left: 1%;
 	}
 
-
-}
-/* @media only screen and (max-width: 500px) {
-
-
-
-	figure:nth-of-type(1),
-	section:nth-of-type(1) {
-		margin: 0 0 10vh 0;
-		width: 100%;
+	.img-div2 img{
+		margin-top: 10%;
+		width: 72%;
+		margin-left: 8%;
 	}
 
-	figure:nth-of-type(2n) {
-		margin: 0 0 10vh auto;
+	 .img-div2 img:nth-child(1){
+		margin-left: 6%;
 	}
 
-    figure:nth-of-type(2n) .rs li{
-        list-style: none;
-        padding-left: 3rem;
-        font-size: 3rem;
-    }
+	.img-div3 img {
+		margin-top: 10%;
+		margin-left: 2%;
 
-	section:nth-of-type(2n) {
-		margin: 0 auto 10vh 0;
 	}
 
+	.img-div3 img:nth-child(2){
+		margin-left: 2%;
+	} 
 
-	figure:last-of-type,
-	section:last-of-type {
-		margin-bottom: 0;
-	}
-
-	
-	figure > div {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		height: 100vh;
-		width: 100%;
-		margin-left: 0.6rem;
-	}
-	figure img {
-		width: 65%;
-		height: 50%;
-		padding-left: 25%; commet
-	}
-
-	section > div {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
-
-	section img {
-		width: 70%;  Se cambia el tamaño de las fullscreen
-		height: 100%; comment
-		padding-left: 5%; 
-	}
-
-	#ppal {
-		width: 100%;
-		height: 100vh;
-		margin: 0;
-		padding: 0;
-	}
-
-	h1,
-	h2 {
-		margin: auto; comment
-		font-size: calc(5vmin + 3vmax);
-		text-align: center;
-		font-weight: 700;
-		line-height: 1;
-		word-spacing: .5rem;
-		margin-top: 50%;
-	}
-
-	.name {
-		width: 100%;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
-	 .role {
-		position: relative;
-		bottom: 2rem;
-	}
-	.aboutme {
-		display: flex;
-		width: 100%;
-		height: 100%;
-		align-items:baseline;
-		justify-content:center;
-	}
-
-
-	.aboutme p {
-		text-align: center;
-	}
-
-	p {
-		text-align: right;
-		width: 90%;
-		font-family: "Cormorant", serif;
-		font-weight: 400;
-		font-style: italic;
-		font-size: calc(1.5vmin + 1.75vmax);
-		margin-bottom: 5%;
-		margin-top: 50%;
-	}
-	.titles-2 {
-		color: transparent;
-		-webkit-text-stroke: 2px #212121;
-		text-decoration: none;
-    	font-weight: 900;
-    	letter-spacing: 2px;
-		text-align: center;
+	.title-ec .titles-2{
+		font-size: 2.8rem;
+		margin-left: 2%;
 	}
 
 	.ecomm {
-		width: 90%;
+		margin-top: 20%;
 	}
 
-	figure .ecomm img {
-		min-width: 20%;
-		min-height: 100%;
-		object-fit: auto;
-        padding-left: 0;
+	.ecomm img{
+		width: 45%;
+	} 
 
-	}
-} */
+}

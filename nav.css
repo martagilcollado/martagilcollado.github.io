@@ -16,6 +16,12 @@ ul, ol {
     margin-top: 2%;
 }
 
+@media only screen and (max-width: 600px){
+	.sm-icons {
+		height: 8%;
+	}
+}
+
 .sm-icons a i{
     text-align: center;
     font-size: 1.6rem;
@@ -143,6 +149,10 @@ ul, ol {
 	position:relative;
 	display: flex;
 	justify-content: center;
+}
+
+@media only screen and (max-width: 600px){
+
 }
 
 .btn-list li:not(.title)

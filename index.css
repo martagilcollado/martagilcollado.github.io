@@ -109,6 +109,10 @@ footer p{
 		width: calc( 40% + 1px);
 		padding: 5%;
 		z-index: 1;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
 	}
 	
 	.name h1 {

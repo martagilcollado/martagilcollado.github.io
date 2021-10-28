@@ -141,7 +141,8 @@ ul, ol {
 {
 	margin:48px 0;
 	padding:10px 16px;
-	position:relative
+	position:relative;
+	right: 13px;
 }
 
 .btn-list li:not(.title)

@@ -400,13 +400,9 @@ footer p{
 		padding: 2%;
 	}
 
-	.titles {
-		margin-left: 5%;
-	}
-
-	.titles h2{
+	/* .titles h2{
 		font-size: 3rem;
-	}
+	} */
 
 	.img-div img {
 		width: 60%;

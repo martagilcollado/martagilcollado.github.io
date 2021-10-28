@@ -234,7 +234,7 @@ footer p{
 		padding : 2%;
 		display: flex;
 		align-items: center;
-		margin-left: 5%;
+		justify-content: center;
 	}
 	
 	.titles-2 {
@@ -292,6 +292,12 @@ footer p{
 
 
 /* RESPONSIVEEEEEEEEEEEEEEE */
+/* @media only screen and (min-width: 5000px) {
+	.titles {
+		margin-left: 10%;
+	}
+} */
+
 @media only screen and (max-width: 1024px) {
 	figure {
 		height: 100vh;

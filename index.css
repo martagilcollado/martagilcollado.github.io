@@ -11,7 +11,6 @@
 html {
 	background: rgb(255, 255, 255);
 	box-sizing:border-box;
-	/* font-family: 'Vollkorn', sans-serif; */
 	font-family: 'Bebas Neue';
 	font-size: 1rem;
 	color: black;
@@ -43,28 +42,24 @@ section {
 	position: sticky;
 	top: 0;		
 	overflow: hidden;
-	/* display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	grid-gap: 10px;
-	grid-auto-rows: minmax(100px, auto); */
 }
 
-footer {
-	position: fixed;
+/* footer {
 	width: 100%;
 	height: 50px;
 	z-index: 1;
-	background: rgba(206, 206, 206, 0.26);
+	background: rgba(206, 206, 206, 0.253);
 	color: #575757;
 	display:flex;
-	/* padding-top: 10px; */
+	padding-top: 10px;
 	align-items: center;
 	justify-items: right;
+	position: fixed;
 }
 footer p{
 	font-size: 1.2rem;
 	margin-bottom: 0;
-}
+} */
 
 
 	figure:nth-of-type(2n)::after {
@@ -76,15 +71,6 @@ footer p{
 		right: 65%;
 		left: 5vmin;
 	} 
-
-
-	/* figure:nth-of-type(1),
-	section:nth-of-type(1)
-	figure:nth-of-type(2),
-	section:nth-of-type(2) {
-		margin: 0 0 10vh 0;
-		width: 50%;
-	} */
 
 	figure:nth-of-type(2n) {
 		margin: 0 0 10vh auto;
@@ -103,7 +89,12 @@ footer p{
 
 	figure:last-of-type,
 	section:last-of-type {
-		margin-bottom: 10vh;
+		margin-bottom: 0;
+	}
+
+	#bot-resize {
+		margin-bottom: 0;
+
 	}
 
 	figure:nth-of-type(1) {
@@ -187,7 +178,7 @@ footer p{
 
 	.img-div .img-alone{
 		margin-left: 15%;
-		margin-top: 10%;
+		margin-top: 5%;
 	}
 
 	.img-div2 img {
@@ -217,7 +208,6 @@ footer p{
 
 	.img-div .img-mxw{
 		width: 60%;
-		margin-top: 2%;
 		margin-left: 10%;
 	}
 
@@ -259,7 +249,6 @@ footer p{
 	h2 {
 		font-size: 4rem;
 		text-align: center;
-		/* font-weight: 400; */
 		line-height: 1.2;
 		word-spacing: 1.2rem;
 	}
@@ -293,12 +282,6 @@ footer p{
 
 
 /* RESPONSIVEEEEEEEEEEEEEEE */
-/* @media only screen and (min-width: 5000px) {
-	.titles {
-		margin-left: 10%;
-	}
-} */
-
 @media only screen and (max-width: 1024px) {
 	figure {
 		height: 100vh;
@@ -309,7 +292,7 @@ footer p{
 
 
 	#vid-section{
-		visibility: hidden;
+		display: none;
 	}
 
 	.img-div,
@@ -375,9 +358,7 @@ footer p{
 	.ecomm img{
 		width: 45%;
 	} 
-
 }
-
 
 @media only screen and (max-width: 600px){
 	figure,
@@ -401,9 +382,13 @@ footer p{
 		padding: 2%;
 	}
 
-	/* .titles h2{
+	.titles {
+		margin-left: 5%;
+	}
+
+	.titles h2{
 		font-size: 3rem;
-	} */
+	}
 
 	.img-div img {
 		width: 60%;
@@ -416,7 +401,7 @@ footer p{
 
 	.titles-2 .title-ec{
 		font-size: 2.8rem;
-		margin-left: 1%;
+		margin-right: 1%;
 	}
 
 	.img-div2 img{
@@ -451,5 +436,4 @@ footer p{
 	.ecomm img{
 		width: 45%;
 	} 
-
 }
